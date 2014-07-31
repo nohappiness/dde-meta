@@ -1,0 +1,17 @@
+#!/bin/bash 
+
+CONFIG_FILE="/usr/share/dde-misc/hooks_trigger_desktops.conf"
+[ ! -f ${CONFIG_FILE} ] && exit
+
+for line in $(cat ${CONFIG_FILE});do
+    action=$(echo "${line}" | cut -d'=' -f 1) 
+    desktop=$(echo "${line}" | cut -d'=' -f 2)
+    if [ -f ${desktop} ] && [ ! -z ${action} ];then
+        echo "Add Deepin to $action in $desktop"
+        if $(grep ${action} ${desktop} | grep -q Deepin);then
+            echo "value Deepin to ${action} has added.Ignore."
+        else
+            sed -i "s/\(${action}=.*\)/\1Deepin;/" $desktop
+        fi
+    fi
+done

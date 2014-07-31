@@ -1,0 +1,2 @@
+#!/bin/sh -e
+/usr/share/dde-misc/fix_desktop_translation.py

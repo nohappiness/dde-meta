@@ -1,0 +1,401 @@
+Source: dde-meta
+Section: metapackages
+Priority: extra
+Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Build-Depends: debhelper (>=8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://www.linuxdeepin.com
+
+Package: dde-meta-base
+Architecture: all
+Depends: ${misc:Depends},
+ acpi-support,
+ alsa-base,
+ alsa-utils,
+ anacron,
+ aptitude,
+ aptitude,
+ at,
+ avahi-autoipd,
+ avahi-utils,
+ base-files,
+ bluez5, 
+ bash-completion,
+ bc,
+ binfmt-support,
+ bsdmainutils,
+ cifs-utils,
+ command-not-found,
+ cups-bsd,
+ cups-driver-gutenprint,
+ cups-pdf,
+ cups-pk-helper,
+ dconf-gsettings-backend,
+ dialog,
+ dmraid,
+ dnsmasq-base,
+ dnsutils,
+ dosfstools,
+ ed,
+ foomatic-db-compressed-ppds,
+ foomatic-db-engine,
+ foomatic-filters,
+ ftp,
+ gcalctool,
+ gconf2,
+ glib-networking,
+ network-manager,
+ gnome-keyring,
+ gnome-menus,
+ gnome-power-manager,
+ groff-base,
+ gnupg-agent,
+ gsettings-desktop-schemas (>= 3.0),
+ gstreamer0.10-plugins-bad,
+ gstreamer0.10-plugins-ugly,
+ gstreamer0.10-ffmpeg,
+ gstreamer0.10-gnomevfs,
+ gstreamer0.10-pulseaudio (>= 0.10.29),
+ gtk2-engines,
+ gtk2-engines-aurora,
+ gtk2-engines-equinox,
+ gtk2-engines-murrine,
+ gtk2-engines-pixbuf,
+ gvfs-backends (>= 1.8),
+ gvfs-bin,
+ hplip,
+ hwdata,
+ icc-profiles-free,
+ inputattach,
+ irqbalance,
+ iw,
+ lftp,
+ libcanberra-pulse,
+ libdvdnav4,
+ libdvdread4,
+ libgail-3-0 (>= 3.0),
+ libnss-mdns,
+ libpam-cap,
+ libpam-ck-connector,
+ libpam-gnome-keyring (>= 3.0),
+ libproxy1-plugin-gsettings,
+ libproxy1-plugin-networkmanager,
+ libmtp-runtime,
+ libsane-hpaio,
+ libtxc-dxtn,
+ libtxc-dxtn-s2tc0,
+#localepurge,
+ lsof,
+ manpages,
+ media-player-info,
+ metacity (>= 1:2.34),
+ mlocate,
+ mobile-broadband-provider-info,
+ modemmanager,
+ mousetweaks,
+ nano,
+ openprinting-ppds,
+ openssh-client,
+ p7zip-full,
+ policykit-1,
+ policykit-1-gnome,
+ policykit-desktop-privileges,
+ poppler-data,
+ pppoeconf,
+ printer-driver-c2esp,
+ printer-driver-foo2zjs,
+ printer-driver-gutenprint,
+ printer-driver-hpcups,
+ printer-driver-hpijs,
+ printer-driver-min12xxw,
+ printer-driver-pnm2ppa,
+ printer-driver-ptouch,
+ printer-driver-pxljr,
+ printer-driver-sag-gdi,
+ printer-driver-splix,
+ pulseaudio,
+ pulseaudio-esound-compat,
+ pulseaudio-module-bluetooth,
+# pulseaudio-module-gconf,
+ pulseaudio-module-x11,
+ pulseaudio-module-zeroconf,
+ python-cupshelpers,
+ python-gobject-cairo,
+ rsync,
+ rtkit,
+ samba-client,
+ sane-utils,
+ ssh-askpass-gnome,
+ system-config-printer-gnome,
+ system-config-printer-udev,
+ telnet,
+ time,
+ toshset,
+ tree,
+ ufw,
+ unrar,
+ unzip,
+ usb-modeswitch,
+ vim,
+ wget,
+ whois,
+ wireless-tools,
+ wodim,
+ wpasupplicant,
+ xdg-user-dirs,
+ xdg-user-dirs-gtk,
+ xdg-utils,
+ xfonts-mathml,
+ xfonts-scalable,
+ fonts-freefont-ttf,
+ xfsprogs,
+ xkb-data,
+ xml-core,
+ xorg,
+ xserver-xorg-video-all,
+ xul-ext-ubufox,
+ zenity (>= 3.0),
+ zip,
+ zsync,
+Description: Deepin New Desktop Environment
+ This is a meta package depends Deepin New Desktop Envrionment.
+ .
+ You can safety remove it after installed.
+
+Package: dde-meta-core
+Architecture: all
+Depends: ${misc:Depends},
+ compiz,
+ consolekit,
+ session-migration,
+ deepin-desktop-environment,
+ dde-control-center,
+ deepin-notifications,
+ deepin-ui,
+ nautilus,
+ lightdm,
+Description: Deepin New Desktop Environment
+ This is a meta package depends Deepin New Desktop Envrionment.
+ .
+ You can safety remove it after installed.
+
+Package: dde-meta-utils
+Architecture: all
+Depends: ${misc:Depends},
+ colord,
+ deepin-screenshot,
+ deepin-software-center,
+ file-roller,
+ gedit,
+ software-properties-common,
+# gnome-bluetooth,
+# gnome-disk-utility,
+ gnome-font-viewer,
+ gnome-system-monitor,
+ deepin-terminal|gnome-terminal, 
+ ubuntu-mono,
+# deepin-jockey-gtk,
+ jieba,
+ nautilus-open-terminal,
+ remmina,
+ remmina-plugin-rdp,
+ remmina-plugin-vnc,
+ tlp,
+ gdebi,
+Description: Deepin New Desktop Environment
+ This is a meta package depends Deepin New Desktop Envrionment.
+ .
+ You can safety remove it after installed.
+
+Package: dde-meta-multimedia
+Architecture: all
+Depends: ${misc:Depends},
+ deepin-music-player,
+# deepin-media-player,
+ deepin-movie,
+ brasero,
+ brasero-cdrkit,
+ cdparanoia,
+Description: Deepin New Desktop Environment
+ This is a meta package depends Deepin New Desktop Envrionment.
+ .
+ You can safety remove it after installed.
+
+Package: dde-meta-artwork
+Architecture: all
+Depends: ${misc:Depends},
+ deepin-artwork,
+ deepin-gtk-theme,
+ deepin-icon-theme,
+ gnome-icon-theme,
+ gnome-icon-theme-full,
+ gnome-icon-theme-symbolic,
+ gnome-themes-standard,
+ hicolor-icon-theme,
+ dmz-cursor-theme,
+ plymouth-theme-deepin-logo,
+ plymouth-theme-deepin-text,
+ sound-theme-freedesktop,
+Description: Deepin New Desktop Environment
+ This is a meta package depends Deepin New Desktop Envrionment.
+ .
+ You can safety remove it after installed.
+
+Package: dde-meta-graphics
+Architecture: all
+Depends: ${misc:Depends},
+ chmsee,
+ eog,
+ evince,
+ exiv2,
+# shotwell,
+Description: Deepin New Desktop Environment
+ This is a meta package depends Deepin New Desktop Envrionment.
+ .
+ You can safety remove it after installed.
+
+Package: dde-meta-network
+Architecture: all
+Depends: ${misc:Depends},
+#firefox,
+ thunderbird,
+#iptux,
+ pidgin,
+ pidgin-libnotify,
+ network-manager-pptp,
+ network-manager-l2tp,
+ network-manager-openconnect,
+ network-manager-openvpn,
+ network-manager-vpnc,
+ hexchat,
+#empathy,
+Recommends:google-chrome | google-chrome-stable | google-chrome-unstable | google-chrome-beta | chromium-browser,
+Description: Deepin New Desktop Environment
+ This is a meta package depends Deepin New Desktop Envrionment.
+ .
+ You can safety remove it after installed.
+
+Package: dde-meta-misc
+Architecture: all
+Depends: ${misc:Depends},
+# deepin-user-manual,
+# audio-recorder,
+# fontconfig-infinality,
+ gnome-user-guide,
+ deepin-translator,
+ deepin-terminal,
+ deepin-default-settings,
+ intel-gpu-tools,
+ libflashplugin,
+ dde-meta-misc-hooks,
+Description: Deepin New Desktop Environment
+ This is a meta package depends Deepin New Desktop Envrionment.
+ .
+ You can safety remove it after installed.
+
+Package: dde-meta-misc-hooks
+Architecture: all
+Depends: ${misc:Depends},
+Description: Deepin New Desktop Environment
+ This is a meta package depends Deepin New Desktop Envrionment.
+ .
+
+Package: dde-meta-zh-hans
+Architecture: all
+Depends: ${misc:Depends},
+ dde-meta-base,
+ dde-meta-core,
+ dde-meta-misc,
+ dde-meta-network,
+ dde-meta-multimedia,
+ dde-meta-artwork,
+ dde-meta-graphics,
+ dde-meta-utils,
+ fcitx,
+# fcitx-sogoupinyin,
+ fcitx-config-gtk,
+ fcitx-frontend-gtk2,
+ fcitx-frontend-gtk3,
+ fcitx-frontend-qt4,
+ fcitx-frontend-qt5,
+ fcitx-module-dbus,
+# fcitx-module-cloudpinyin,
+ fcitx-module-x11,
+ fcitx-table,
+ fcitx-table-wubi,
+#fcitx-ui-classic,
+ fcitx-module-kimpanel,
+# fcitx-skin-sogou,
+ im-config,
+ language-pack-zh-hans,
+ language-pack-gnome-zh-hans,
+ thunderbird-locale-zh-cn,
+ wamerican,
+ dictionaries-common,
+Description: Deepin Desktop Environment Simplefied Chinese edition
+ This package depends on all of the packages in new deepin desktop environment
+ -- Simplefied Chinese version.
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
+Package: dde-meta-zh-hant
+Architecture: all
+Depends: ${misc:Depends},
+ dde-meta-base,
+ dde-meta-core,
+ dde-meta-misc,
+ dde-meta-network,
+ dde-meta-multimedia,
+ dde-meta-artwork,
+ dde-meta-graphics,
+ dde-meta-utils,
+ fcitx,
+ fcitx-chewing,
+ fcitx-table-cangjie3,
+ fcitx-config-gtk,
+ fcitx-frontend-gtk2,
+ fcitx-frontend-gtk3,
+ fcitx-ui-classic,
+ fcitx-module-kimpanel,
+ im-config,
+ language-pack-zh-hant,
+ language-pack-gnome-zh-hant,
+ thunderbird-locale-zh-hant,
+ wamerican,
+ dictionaries-common,
+ cmap-adobe-cns1
+Recommends: libreoffice-l10n-zh-tw
+Description: Deepin Desktop Environment Traditional Chinese edition
+ This package depends on all of the packages in new deepin desktop environment
+ -- Traditional Chinese version.
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
+Package: dde-meta-en
+Architecture: all
+Depends: ${misc:Depends}, 
+ dde-meta-base,
+ dde-meta-core,
+ dde-meta-misc,
+ dde-meta-network,
+ dde-meta-multimedia,
+ dde-meta-artwork,
+ dde-meta-graphics,
+ dde-meta-utils,
+ fonts-linuxlibertine,
+ fonts-century-catalogue,
+ language-pack-en,
+ language-pack-gnome-en,
+ wamerican,
+ dictionaries-common,
+ hyphen-en-us,
+# mythes-en-us
+Recommends: libreoffice-l10n-en-gb
+Description: Deepin Desktop Environment English edition
+ This package depends on all of the packages in new deepin desktop environment
+ -- English version.
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.

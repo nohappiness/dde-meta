@@ -1,0 +1,945 @@
+dde-meta (0.2.15~trusty) trusty; urgency=low
+
+  * fix dde-misc fix desktop function. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Fri, 11 Jul 2014 09:19:14 +0800
+
+dde-meta (0.2.14~trusty) trusty; urgency=low
+
+  * back to 0.2.12 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Wed, 09 Jul 2014 23:23:57 +0800
+
+dde-meta (0.2.13~trusty) trusty; urgency=low
+
+  * add libgnome2-common to fix qtIcontheme problem. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Wed, 09 Jul 2014 23:17:47 +0800
+
+dde-meta (0.2.12~trusty) trusty; urgency=low
+
+  * fix depends. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Wed, 09 Jul 2014 15:36:10 +0800
+
+dde-meta (0.2.11~trusty) trusty; urgency=low
+
+  * add misc-hooks triggers. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Wed, 09 Jul 2014 12:53:26 +0800
+
+dde-meta (0.2.10~trusty) trusty; urgency=medium
+
+  * add fonts-freefont-ttf.
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Mon, 30 Jun 2014 14:29:54 +0800
+
+dde-meta (0.2.9~trusty) trusty; urgency=low
+
+  * remove infinality patch. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Wed, 18 Jun 2014 09:52:57 +0800
+
+dde-meta (0.2.8~trusty) trusty; urgency=low
+
+  * fix version. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Wed, 11 Jun 2014 23:12:39 +0800
+
+dde-meta (0.2-8~trusty) trusty; urgency=low
+
+  * changeback from shotwell to eog. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Wed, 11 Jun 2014 08:42:35 +0800
+
+dde-meta (0.2-7~trusty) trusty; urgency=low
+
+  * remove pulseaudio-module-gconf. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Tue, 03 Jun 2014 10:31:41 +0800
+
+dde-meta (0.2-6~trusty) trusty; urgency=low
+
+  * update. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Wed, 14 May 2014 17:06:03 +0800
+
+dde-meta (0.2-5~trusty) trusty; urgency=low
+
+  * remove eog as depends. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Wed, 14 May 2014 14:27:19 +0800
+
+dde-meta (0.2-4~trusty) trusty; urgency=low
+
+  * add NoDisplay to im-config desktop file. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Wed, 14 May 2014 08:59:19 +0800
+
+dde-meta (0.2-3~trusty) trusty; urgency=low
+
+  * fix triggers
+  * add deepin-translator to depends.
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Tue, 13 May 2014 10:34:28 +0800
+
+dde-meta (0.2-2~trusty) trusty; urgency=low
+
+  * add network-manager plugins. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Tue, 13 May 2014 09:48:34 +0800
+
+dde-meta (0.2-1~trusty) trusty; urgency=low
+
+  * add wubi back. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Mon, 12 May 2014 15:39:02 +0800
+
+dde-meta (0.1-108~trusty) trusty; urgency=low
+
+  * remove fcitx-table depends. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Mon, 12 May 2014 12:37:51 +0800
+
+dde-meta (0.1-107~trusty) trusty; urgency=low
+
+  * add bluez5 as depends. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Mon, 12 May 2014 10:07:14 +0800
+
+dde-meta (0.1-106~trusty) trusty; urgency=low
+
+  * remove fcitx-wubi. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Fri, 09 May 2014 17:31:57 +0800
+
+dde-meta (0.1-105~trusty) trusty; urgency=low
+
+  * add gdebi back to depends. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Thu, 08 May 2014 10:03:01 +0800
+
+dde-meta (0.1-104~trusty) trusty; urgency=low
+
+  * add shotwell to depends. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Thu, 08 May 2014 09:45:47 +0800
+
+dde-meta (0.1-103~trusty) trusty; urgency=low
+
+  * add gnome-font-viewer back to depends. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Mon, 28 Apr 2014 17:10:58 +0800
+
+dde-meta (0.1-102~trusty) trusty; urgency=low
+
+  * add fontconfig-infinality as depends. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Mon, 28 Apr 2014 10:32:55 +0800
+
+dde-meta (0.1-101~trusty) trusty; urgency=low
+
+  * remove fcitx-ui-classic as depends. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Mon, 28 Apr 2014 09:47:47 +0800
+
+dde-meta (0.1-100~trusty) trusty; urgency=low
+
+  * remove sogoupinyin as depends. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Mon, 28 Apr 2014 09:10:24 +0800
+
+dde-meta (0.1-99~trusty) trusty; urgency=low
+
+  * remove libreoffice depends. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Tue, 15 Apr 2014 16:58:06 +0800
+
+dde-meta (0.1-98~trusty) trusty; urgency=low
+
+  * remove user manual depends. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Tue, 15 Apr 2014 14:53:27 +0800
+
+dde-meta (0.1-97~trusty) trusty; urgency=low
+
+  * fix dde-control-center depend. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Fri, 11 Apr 2014 11:35:24 +0800
+
+dde-meta (0.1-96~trusty) trusty; urgency=low
+
+  * merge core package changes. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Fri, 11 Apr 2014 10:49:35 +0800
+
+dde-meta (0.1-95~trusty) trusty; urgency=low
+
+  * add tlp to depends to utils. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Thu, 10 Apr 2014 10:20:54 +0800
+
+dde-meta (0.1-94~trusty) trusty; urgency=low
+
+  * remove firefox depends. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Thu, 10 Apr 2014 09:52:55 +0800
+
+dde-meta (0.1-93~trusty) trusty; urgency=low
+
+  * fix triggers error. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Wed, 19 Mar 2014 10:33:51 +0800
+
+dde-meta (0.1-92~trusty) trusty; urgency=low
+
+  * fix conf file bug. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Wed, 19 Mar 2014 10:27:14 +0800
+
+dde-meta (0.1-91~trusty) trusty; urgency=low
+
+  * remove baobad. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Wed, 19 Mar 2014 10:12:42 +0800
+
+dde-meta (0.1-90~trusty) trusty; urgency=low
+
+  * remove some depends. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Mon, 17 Mar 2014 10:05:53 +0800
+
+dde-meta (0.1-89~trusty) trusty; urgency=low
+
+  * dummy update. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Fri, 07 Mar 2014 15:39:23 +0800
+
+dde-meta (0.1-88~trusty) trusty; urgency=low
+
+  * add gnome-settings-daemon-schema depends. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Fri, 07 Mar 2014 10:59:37 +0800
+
+dde-meta (0.1-87~trusty) trusty; urgency=low
+
+  * remove ffmpegthumbnailer depends from misc. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Fri, 07 Mar 2014 10:14:50 +0800
+
+dde-meta (0.1-86~trusty) trusty; urgency=low
+
+  * remove deepin-jockey. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Fri, 07 Mar 2014 09:22:29 +0800
+
+dde-meta (0.1-86~saucy) saucy; urgency=low
+
+  * remove gnome-session and gnome-settings-daemon. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Tue, 04 Mar 2014 10:12:50 +0800
+
+dde-meta (0.1-85~saucy) saucy; urgency=low
+
+  * remove deepin-session 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Wed, 12 Feb 2014 14:44:32 +0800
+
+dde-meta (0.1-84~saucy) saucy; urgency=low
+
+  * remove deepin-system-settings. 
+  * add dss depends.
+  * remove deepin-system-tray. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Sun, 09 Feb 2014 09:30:17 +0800
+
+dde-meta (0.1-83~saucy) saucy; urgency=low
+
+  * remove grub-pc from dde-meta-core. 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Tue, 21 Jan 2014 14:53:39 +0800
+
+dde-meta (0.1-82~saucy) saucy; urgency=low
+
+  * fix dde-meta-zh-hants depends 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Wed, 08 Jan 2014 12:00:05 +0800
+
+dde-meta (0.1-81~saucy) saucy; urgency=low
+
+  * change libfcitx-qt5-0 to fcitx-frontend-qt5 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Wed, 25 Dec 2013 10:25:52 +0800
+
+dde-meta (0.1-80~saucy) saucy; urgency=low
+
+  * remove deepin-default-settings-* depends  
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Mon, 23 Dec 2013 09:37:19 +0800
+
+dde-meta (0.1-79~saucy) saucy; urgency=low
+
+  * remove localepurge depends 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Mon, 16 Dec 2013 15:03:56 +0800
+
+dde-meta (0.1-78~saucy) saucy; urgency=low
+
+  * port to saucy 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Sat, 07 Dec 2013 00:04:34 +0800
+
+dde-meta (0.1-78~raring) raring; urgency=low
+
+  * add gen_triggers to generate trigger file automatic 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Fri, 29 Nov 2013 15:01:20 +0800
+
+dde-meta (0.1-77~raring) raring; urgency=low
+
+  * fix outputing info 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Fri, 29 Nov 2013 12:27:34 +0800
+
+dde-meta (0.1-76~raring) raring; urgency=low
+
+  * fix wrong coding 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Fri, 29 Nov 2013 12:18:47 +0800
+
+dde-meta (0.1-75~raring) raring; urgency=low
+
+  * fix wrong config path 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Fri, 29 Nov 2013 12:13:31 +0800
+
+dde-meta (0.1-74~raring) raring; urgency=low
+
+  * add new triggers to fix desktop lost action 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Fri, 29 Nov 2013 12:10:57 +0800
+
+dde-meta (0.1-73~raring) raring; urgency=low
+
+  * add deepin-terminal to misc depends 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Wed, 23 Oct 2013 12:08:24 +0800
+
+dde-meta (0.1-72~raring) raring; urgency=low
+
+  * add audio-recorder to misc 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Wed, 16 Oct 2013 16:50:21 +0800
+
+dde-meta (0.1-71~raring) raring; urgency=low
+
+  * add deepin-terminal to default depends 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Sat, 12 Oct 2013 14:17:08 +0800
+
+dde-meta (0.1-70~raring) raring; urgency=low
+
+  * remove gnome-media.
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Wed, 09 Oct 2013 10:31:01 +0800
+
+dde-meta (0.1-69~raring) raring; urgency=low
+
+  * add gnome-menus back as there's fatal errors without it.
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Wed, 18 Sep 2013 08:54:41 +0800
+
+dde-meta (0.1-68~raring) raring; urgency=low
+
+  * remove gnome-menus.
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Mon, 16 Sep 2013 09:11:35 +0800
+
+dde-meta (0.1-67~raring) raring; urgency=low
+
+  * add ffmepgthumbnailer to misc depends 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Thu, 05 Sep 2013 11:15:50 +0800
+
+dde-meta (0.1-66~raring) raring; urgency=low
+
+  * change chrome to recommends 
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Thu, 05 Sep 2013 09:39:02 +0800
+
+dde-meta (0.1-65~raring) raring; urgency=low
+
+  * add other chrome browers.
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Mon, 12 Aug 2013 11:17:32 +0800
+
+dde-meta (0.1-64~raring) raring; urgency=low
+
+  * add deepin-default-settings-zh-han{s,t} to fix fcitx input.
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Mon, 12 Aug 2013 10:36:52 +0800
+
+dde-meta (0.1-63~raring) raring; urgency=low
+
+  * change jockey-gtk to deepin-jockey-gtk.
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Thu, 04 Jul 2013 09:00:03 +0800
+
+dde-meta (0.1-62~raring) raring; urgency=low
+
+  * change deepin-jockey-common to jockey-common.
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Tue, 02 Jul 2013 14:48:29 +0800
+
+dde-meta (0.1-61~raring) raring; urgency=low
+
+  * remove fcitx-skin-sogou from dde-meta-zh-hant.
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Tue, 18 Jun 2013 15:04:46 +0800
+
+dde-meta (0.1-60~raring) raring; urgency=low
+
+  * add deepin-desktop-environment-plugins to dde-meta-core.
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Tue, 18 Jun 2013 11:20:52 +0800
+
+dde-meta (0.1-59~raring) raring; urgency=low
+
+  * add libfcitx-qt5-0 depends 
+
+ -- Deepin Testing Packages <testing@linuxdeepin.com>  Tue, 18 Jun 2013 09:05:37 +0800
+
+dde-meta (0.1-58~raring) raring; urgency=low
+
+  * add libtxc-dxtn-s2tc0 to depends 
+
+ -- Deepin Testing Packages <testing@linuxdeepin.com>  Tue, 18 Jun 2013 01:23:46 +0800
+
+dde-meta (0.1-57~raring) raring; urgency=low
+
+  * add  libtxc-dxtn to depends 
+
+ -- Deepin Testing Packages <testing@linuxdeepin.com>  Mon, 17 Jun 2013 04:20:07 +0800
+
+dde-meta (0.1-56~raring) raring; urgency=low
+
+  * add deepin-session-fastup depends 
+
+ -- Deepin Testing Packages <testing@linuxdeepin.com>  Fri, 07 Jun 2013 17:44:47 +0800
+
+dde-meta (0.1-55~raring) raring; urgency=low
+
+  * fix unity apps depends error 
+
+ -- Deepin Testing Packages <testing@linuxdeepin.com>  Tue, 04 Jun 2013 09:23:10 +0800
+
+dde-meta (0.1-54~raring) raring; urgency=low
+
+  * remove fontconig depends 
+
+ -- Deepin Testing Packages <testing@linuxdeepin.com>  Thu, 30 May 2013 18:11:13 +0800
+
+dde-meta (0.1-53) raring; urgency=low
+
+  * add software-properties-common depends 
+
+ -- Deepin Testing Packages <testing@linuxdeepin.com>  Tue, 28 May 2013 09:40:44 +0800
+
+dde-meta (0.1-52) raring; urgency=low
+
+  * add ubuntu mono to fix ubiquity icon lost 
+
+ -- Deepin Testing Packages <testing@linuxdeepin.com>  Tue, 28 May 2013 09:06:14 +0800
+
+dde-meta (0.1-51) raring; urgency=low
+
+  * add yelp and gnome-user-guide depends 
+
+ -- Deepin Testing Packages <testing@linuxdeepin.com>  Wed, 22 May 2013 16:59:28 +0800
+
+dde-meta (0.1-50) raring; urgency=low
+
+  * add libflash-plugin back 
+
+ -- Deepin Testing Packages <testing@linuxdeepin.com>  Tue, 21 May 2013 10:54:56 +0800
+
+dde-meta (0.1-49) raring; urgency=low
+
+  * add firefox to depends 
+
+ -- Deepin Testing Packages <testing@linuxdeepin.com>  Tue, 21 May 2013 09:05:53 +0800
+
+dde-meta (0.1-48) raring; urgency=low
+
+  * add session-migration depends 
+
+ -- Deepin Testing Packages <testing@linuxdeepin.com>  Mon, 20 May 2013 17:00:39 +0800
+
+dde-meta (0.1-47) raring; urgency=low
+
+  * remove gnome-nettool 
+
+ -- Deepin Testing Packages <testing@linuxdeepin.com>  Mon, 20 May 2013 09:57:27 +0800
+
+dde-meta (0.1-46) raring; urgency=low
+
+  * add google-chrome-stable to depends 
+
+ -- Deepin Testing Packages <testing@linuxdeepin.com>  Thu, 16 May 2013 09:22:13 +0800
+
+dde-meta (0.1-45) raring; urgency=low
+
+  * remove numlock depens 
+
+ -- Deepin Testing Packages <testing@linuxdeepin.com>  Fri, 10 May 2013 16:46:24 +0800
+
+dde-meta (0.1-44) raring; urgency=low
+
+  * change empathy to pidgin 
+
+ -- Deepin Testing Packages <testing@linuxdeepin.com>  Thu, 09 May 2013 14:29:31 +0800
+
+dde-meta (0.1-43) raring; urgency=low
+
+  * change jokey-gtk to deepin-jokey-gtk
+
+ -- Deepin Testing Packages <testing@linuxdeepin.com>  Thu, 09 May 2013 14:11:32 +0800
+
+dde-meta (0.1-42) raring; urgency=low
+
+  * remove usb-creator deps 
+
+ -- Deepin Testing Packages <testing@linuxdeepin.com>  Thu, 09 May 2013 10:17:26 +0800
+
+dde-meta (0.1-41) raring; urgency=low
+
+  * remove deepin-default-settings-{zh_hans,zh_hant,en} 
+
+ -- Deepin Testing Packages <testing@linuxdeepin.com>  Wed, 08 May 2013 15:48:44 +0800
+
+dde-meta (0.1-40) raring; urgency=low
+
+  * remove ttf-* deps 
+
+ -- Deepin Testing Packages <testing@linuxdeepin.com>  Sun, 05 May 2013 17:38:09 +0800
+
+dde-meta (0.1-39) raring; urgency=low
+
+  * add fontconfig-infinality deps 
+
+ -- Deepin Testing Packages <testing@linuxdeepin.com>  Sun, 05 May 2013 17:09:11 +0800
+
+dde-meta (0.1-38.1) raring; urgency=low
+
+  * Non-maintainer upload.
+  * Dummy update
+
+ -- Deepin Testing Packages <testing@linuxdeepin.com>  Sat, 27 Apr 2013 10:18:49 +0800
+
+dde-meta (0.1-38) quantal; urgency=low
+
+  * remove deepin-screensaver.
+  * add numlockx.
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Sat, 27 Apr 2013 09:57:20 +0800
+
+dde-meta (0.1-37) quantal; urgency=low
+
+  * remove compiz-plugins.
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Tue, 23 Apr 2013 13:51:46 +0800
+
+dde-meta (0.1-36) quantal; urgency=low
+
+  * remove compizconfig-settings-manager
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Fri, 12 Apr 2013 14:35:42 +0800
+
+dde-meta (0.1-35) quantal; urgency=low
+
+  * remove yelp
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Tue, 02 Apr 2013 09:22:31 +0800
+
+dde-meta (0.1-34) quantal; urgency=low
+
+  * change sunpinyin to sogoupinyin
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Thu, 28 Mar 2013 11:31:08 +0800
+
+dde-meta (0.1-33) quantal; urgency=low
+
+  * add gnome-screensaver dependency
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Mon, 25 Mar 2013 13:44:20 +0800
+
+dde-meta (0.1-32) quantal; urgency=low
+
+  * remove headers-generic and image-generic depends
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Thu, 21 Mar 2013 09:47:17 +0800
+
+dde-meta (0.1-31) quantal; urgency=low
+
+  * change anran skin to sogou skin -- fcitx
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Wed, 20 Mar 2013 16:29:08 +0800
+
+dde-meta (0.1-30) quantal; urgency=low
+
+  * add deepin-user-manual to misc depends 
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Tue, 19 Mar 2013 14:44:02 +0800
+
+dde-meta (0.1-29) quantal; urgency=low
+
+  * add gdebi in dde-meta-utils to handle with .deb files.
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Mon, 04 Mar 2013 10:27:27 +0800
+
+dde-meta (0.1-28) quantal; urgency=low
+
+  * add nautilus-open-terminal
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Wed, 30 Jan 2013 16:13:35 +0800
+
+dde-meta (0.1-27) quantal; urgency=low
+
+  * remove deepin-user-guide
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Mon, 28 Jan 2013 09:09:47 +0800
+
+dde-meta (0.1-26) quantal; urgency=low
+
+  * remove gnome-user-share deps 
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Fri, 25 Jan 2013 12:38:59 +0800
+
+dde-meta (0.1-25) quantal; urgency=low
+
+  * just rebuild 
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Fri, 25 Jan 2013 12:32:11 +0800
+
+dde-meta (0.1-24) quantal; urgency=low
+
+  * remove kupfer 
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Thu, 24 Jan 2013 14:12:52 +0800
+
+dde-meta (0.1-23) quantal; urgency=low
+
+  * add kupfer deps 
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Thu, 24 Jan 2013 12:12:05 +0800
+
+dde-meta (0.1-22) quantal; urgency=low
+
+  * remove xinitrc file 
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Wed, 23 Jan 2013 15:07:35 +0800
+
+dde-meta (0.1-21) quantal; urgency=low
+
+  * just rebuild. 
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Wed, 23 Jan 2013 14:40:13 +0800
+
+dde-meta (0.1-20) quantal; urgency=low
+
+  * remove bluetooth deps 
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Wed, 23 Jan 2013 14:03:53 +0800
+
+dde-meta (0.1-19) quantal; urgency=low
+
+  * add new fcitx skin 
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Wed, 23 Jan 2013 10:02:12 +0800
+
+dde-meta (0.1-18) quantal; urgency=low
+
+  * remove term* depends 
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Tue, 22 Jan 2013 15:04:46 +0800
+
+dde-meta (0.1-17) quantal; urgency=low
+
+  * remove emerald package depends 
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Tue, 22 Jan 2013 15:02:13 +0800
+
+dde-meta (0.1-16) quantal; urgency=low
+
+  * remove notify* package 
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Mon, 21 Jan 2013 16:36:54 +0800
+
+dde-meta (0.1-15) quantal; urgency=low
+
+  * add deepin-notifications deps
+  * add deepin-system-tray deps 
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Mon, 21 Jan 2013 15:00:09 +0800
+
+dde-meta (0.1-14) quantal; urgency=low
+
+  * add network-manager-gnome deps 
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Thu, 17 Jan 2013 09:43:30 +0800
+
+dde-meta (0.1-13) quantal; urgency=low
+
+  * remove shotwell 
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Wed, 16 Jan 2013 16:21:48 +0800
+
+dde-meta (0.1-12) quantal; urgency=low
+
+  * add gnupg-agent depends 
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Mon, 14 Jan 2013 17:15:44 +0800
+
+dde-meta (0.1-11) quantal; urgency=low
+
+  * add jieba depends 
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Mon, 14 Jan 2013 13:02:54 +0800
+
+dde-meta (0.1-10) quantal; urgency=low
+
+  * replace deepin-unity-greeter to deepin-desktop-environment-lightdm-greeter 
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Fri, 11 Jan 2013 16:28:24 +0800
+
+dde-meta (0.1-9) quantal; urgency=low
+
+  * just rebuild
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Sat, 29 Dec 2012 09:43:53 +0800
+
+dde-meta (0.1-8) quantal; urgency=low
+
+  * add nautilus depends 
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Fri, 28 Dec 2012 17:03:57 +0800
+
+dde-meta (0.1-7) quantal; urgency=low
+
+  * change source to native 
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Wed, 26 Dec 2012 10:00:46 +0800
+
+dde-meta (0.1-6) quantal; urgency=low
+
+  * test 
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Wed, 26 Dec 2012 09:56:42 +0800
+
+dde-meta (0.1-5) quantal; urgency=low
+
+  * remove hunspell-en-us
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Mon, 03 Dec 2012 10:33:23 +0800
+
+dde-meta (0.1-4) quantal; urgency=low
+
+  * rename plymounth to plymouth
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Mon, 03 Dec 2012 10:26:13 +0800
+
+dde-meta (0.1-3) quantal; urgency=low
+
+  * fix two dependencies:
+    rename gstreamer0.10-bad to gstreamer0.10-plugins-bad
+    remove libavcodec-extra-53
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Mon, 03 Dec 2012 10:18:05 +0800
+
+dde-meta (0.1-2) quantal; urgency=low
+
+  * new package. 
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Thu, 15 Nov 2012 16:10:35 +0800
+
+dde-meta (0.1-1) quantal; urgency=low
+
+  * change package name to dde-meta-*
+  * split more packages.
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Thu, 15 Nov 2012 15:58:18 +0800
+
+dde-full (0.1-27) quantal; urgency=low
+
+  * remove network-manager-gnome 
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Thu, 15 Nov 2012 10:16:10 +0800
+
+dde-full (0.1-26) quantal; urgency=low
+
+  * fix new bug. 
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Tue, 13 Nov 2012 15:05:45 +0800
+
+dde-full (0.1-25) quantal; urgency=low
+
+  * fix 
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Tue, 13 Nov 2012 09:17:20 +0800
+
+dde-full (0.1-24) quantal; urgency=low
+
+  * split more packages
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Mon, 12 Nov 2012 13:59:38 +0800
+
+dde-full (0.1-23) quantal; urgency=low
+
+  * add .xinitrc file 
+
+ -- Li Longyu (Ai Kotoba) <leaeasy@gmail.com>  Tue, 06 Nov 2012 09:13:27 +0800
+
+dde-full (0.1-22) quantal; urgency=low
+
+  * remove compiz edge action.
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Thu, 01 Nov 2012 17:29:31 +0800
+
+dde-full (0.1-21) quantal; urgency=low
+
+  * add dependency deepin-system-settings-module-all
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Thu, 01 Nov 2012 16:42:38 +0800
+
+dde-full (0.1-20) quantal; urgency=low
+
+  * fix compiz config file.
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Thu, 01 Nov 2012 16:08:54 +0800
+
+dde-full (0.1-19) quantal; urgency=low
+
+  * add compiz-plugins.
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Thu, 01 Nov 2012 15:13:02 +0800
+
+dde-full (0.1-18) quantal; urgency=low
+
+  * add etc/skel/.config to set default compiz config
+  * remove deepin-cursor-theme as it's been obsoleted
+  * add deepin-gtk-theme deepin-icon-theme
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Wed, 31 Oct 2012 11:11:40 +0800
+
+dde-full (0.1-17) quantal; urgency=low
+
+  * remove grub-theme-deepin as could cause iso generation paused.
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Wed, 12 Sep 2012 15:13:25 +0800
+
+dde-full (0.1-16) quantal; urgency=low
+
+  * add dependency grub-theme-deepin
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Wed, 12 Sep 2012 14:25:44 +0800
+
+dde-full (0.1-15) quantal; urgency=low
+
+  * add awn-applet-digital-clock
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Wed, 12 Sep 2012 10:21:09 +0800
+
+dde-full (0.1-14) quantal; urgency=low
+
+  * change cairo-dock back to awn
+  * add awn-applet-cairo-main-menu
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Mon, 10 Sep 2012 14:55:28 +0800
+
+dde-full (0.1-13) quantal; urgency=low
+
+  * change docky to cairo-dock
+  * remove gmrun
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Wed, 05 Sep 2012 17:07:50 +0800
+
+dde-full (0.1-12) quantal; urgency=low
+
+  * change deepin-compiz to compiz and add compizconfig-settings-manager
+  * change gnome-do to gmrun
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Tue, 04 Sep 2012 13:49:21 +0800
+
+dde-full (0.1-11) quantal; urgency=low
+
+  * change awn-applet-main-menu to awn-applet-cairo-main-menu.
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Mon, 03 Sep 2012 16:40:44 +0800
+
+dde-full (0.1-10) quantal; urgency=low
+
+  * add firefox
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Tue, 28 Aug 2012 12:02:35 +0800
+
+dde-full (0.1-9) quantal; urgency=low
+
+  * fix policykit to policykit-1
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Tue, 28 Aug 2012 09:51:42 +0800
+
+dde-full (0.1-8) quantal; urgency=low
+
+  * add consolekit and policykit
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Tue, 28 Aug 2012 09:37:41 +0800
+
+dde-full (0.1-7) quantal; urgency=low
+
+  * add awn-applet-main-menu
+  * add awn-settings
+  * add bash-completion
+  * add deepin-cursor-theme
+  * add deepin-session
+  * add gnome-icon-theme
+  * add gtk2-engines
+  * add hicolor-icon-theme
+  * add lxterminal
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Mon, 27 Aug 2012 17:26:45 +0800
+
+dde-full (0.1-6) quantal; urgency=low
+
+  * remove deepin-artwork and default-settings.
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Mon, 27 Aug 2012 11:21:40 +0800
+
+dde-full (0.1-5) quantal; urgency=low
+
+  * fix lightdm-unity-greeter to unity-greeter.
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Mon, 27 Aug 2012 11:12:49 +0800
+
+dde-full (0.1-4) quantal; urgency=low
+
+  * add lightdm and unity-greeter.
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Mon, 27 Aug 2012 11:08:59 +0800
+
+dde-full (0.1-3) quantal; urgency=low
+
+  * add deps aptitude for mkiso
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Mon, 27 Aug 2012 10:54:02 +0800
+
+dde-full (0.1-2) quantal; urgency=low
+
+  * fix deepin-screen-shot to deepin-screenshot
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Mon, 27 Aug 2012 10:03:36 +0800
+
+dde-full (0.1-1) quantal; urgency=low
+
+  * initial dde-full release.
+
+ -- Yueqian Zhang <zhangyueqian@linuxdeepin.com>  Mon, 27 Aug 2012 09:37:58 +0800
